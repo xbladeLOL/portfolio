@@ -267,3 +267,22 @@
   .services-contact h2{font-size:46px}
   .footer-services{font-size:11px}
 }
+/* Offre de lancement VisiPro */
+.launch-offer{padding:30px 0;background:#eaf4fa}
+.launch-offer-inner{display:grid;grid-template-columns:auto 1fr auto;gap:26px;align-items:center;padding:25px 28px;border:1px solid #cbdfea;background:#f9fcfe}
+.launch-offer-badge{align-self:start;padding:8px 11px;border:1px solid #acd4e8;border-radius:3px;background:#e6f4fb;color:#075985;font-size:9px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;white-space:nowrap}
+.launch-offer-copy .eyebrow{margin:0 0 7px;color:#0369a1}
+.launch-offer-copy h2{margin:0;font:600 22px/1.25 var(--display);letter-spacing:-.7px}
+.launch-offer-copy>p:last-child{max-width:650px;margin:7px 0 0;color:#526174;font-size:12px;line-height:1.7}
+@media(max-width:820px){
+ .launch-offer-inner{grid-template-columns:auto 1fr;gap:15px 20px}
+ .launch-offer-inner>.button{grid-column:2;justify-self:start}
+}
+@media(max-width:600px){
+ .launch-offer{padding:22px 0}
+ .launch-offer-inner{grid-template-columns:1fr;gap:13px;padding:21px}
+ .launch-offer-badge{justify-self:start}
+ .launch-offer-inner>.button{grid-column:auto;width:100%}
+ .launch-offer-copy h2{font-size:21px}
+ .launch-offer-copy>p:last-child{font-size:13px}
+}
