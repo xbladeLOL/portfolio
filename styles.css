@@ -206,3 +206,64 @@
   .preview-menu span:nth-child(2){display:none}
   .preview-values{font-size:5.5px}
 }
+
+/* Page services détaillée */
+.service-more{display:inline-flex;align-items:center;gap:7px;margin-top:15px;color:#075985;font-size:11px;font-weight:700}
+.service-more span{color:var(--brand-blue);transition:transform .2s}
+.service-more:hover{color:var(--dark)}
+.service-card-dark .service-more{color:#e0edf7}
+.service-card-dark .service-more span{color:#7dd3fc}
+.service-card-dark .service-more:hover{color:#ffffff}
+.service-more:hover span{transform:translate(2px,-2px)}
+.footer-services{color:#cbd5e1;font-size:10px}
+.footer-services:hover{color:#7dd3fc}
+.services-hero{padding:98px 0 92px;background:var(--white)}
+.services-hero-inner{max-width:830px}
+.services-hero h1{margin:0;font:600 clamp(48px,6vw,74px)/1.05 var(--display);letter-spacing:-4px}
+.services-hero h1 em,.service-detail h2 em,.services-contact h2 em{color:var(--brand-blue);font:italic 400 1em/1 var(--serif);letter-spacing:-2.5px}
+.services-lead{max-width:660px;margin:24px 0 28px;color:#526174;font-size:16px;line-height:1.85}
+.services-index{padding-top:88px;padding-bottom:88px;background:#f0f4f8}
+.service-jump-list{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid #dbe3ec}
+.service-jump-list a{display:grid;grid-template-columns:36px 1fr 22px;gap:12px;align-items:center;min-height:72px;padding:14px 16px;border-bottom:1px solid #dbe3ec;color:#334155;font-size:13px;font-weight:600;transition:background .2s,color .2s}
+.service-jump-list a:nth-child(odd){border-right:1px solid #dbe3ec}
+.service-jump-list a:hover{background:var(--white);color:#075985}
+.service-jump-list a span{color:#0284c7;font-size:10px}
+.service-jump-list a b{color:#0284c7;font-size:16px}
+.service-details{padding-top:25px;padding-bottom:25px;background:var(--white)}
+.service-detail{display:grid;grid-template-columns:.68fr 1.32fr;gap:60px;padding:80px 5%;border-bottom:1px solid #e3eaf1;scroll-margin-top:90px}
+.service-detail:last-child{border-bottom:0}
+.service-detail-reverse .service-detail-number{order:2}
+.service-detail-reverse .service-detail-copy{order:1}
+.service-detail-number{display:flex;flex-direction:column;gap:12px;color:#0284c7;font:700 38px var(--display);letter-spacing:-2px}
+.service-detail-number span{color:#64748b;font:700 9px var(--sans);letter-spacing:1.4px}
+.service-detail-copy{max-width:660px}
+.service-detail-copy .eyebrow{margin-bottom:14px}
+.service-detail h2{margin:0 0 18px;font:600 clamp(34px,4vw,48px)/1.12 var(--display);letter-spacing:-2.7px}
+.service-detail-copy>p:not(.eyebrow){color:#526174;font-size:14px;line-height:1.85}
+.service-detail-copy ul{display:grid;gap:10px;margin:22px 0;padding:0;list-style:none;color:#344256;font-size:13px}
+.service-detail-copy li{position:relative;padding-left:22px;line-height:1.65}
+.service-detail-copy li:before{position:absolute;left:0;content:"↗";color:#0284c7;font-weight:700}
+.service-detail-note{padding-left:14px;border-left:2px solid #7dd3fc;color:#64748b!important;font-size:12px!important}
+.service-detail-note a{color:#075985;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.service-contact{color:#075985}
+.services-contact{background:#eef4f9}
+.services-contact-inner{display:grid;grid-template-columns:1fr auto;gap:55px;align-items:center;padding:39px 42px;border:1px solid #dbe3ec;background:#ffffffa8}
+.services-contact h2{margin:0;font:600 clamp(40px,5vw,58px)/1.05 var(--display);letter-spacing:-3px}
+.services-contact-inner>div:first-child>p:last-child{max-width:590px;color:#526174;font-size:13px;line-height:1.85}
+.services-contact-actions{display:flex;flex-direction:column;align-items:flex-start;gap:18px}
+@media(max-width:720px){
+  .services-hero{padding:68px 0}
+  .services-hero h1{font-size:clamp(43px,11vw,62px);letter-spacing:-3px}
+  .services-lead{font-size:14px}
+  .services-index{padding-block:65px}
+  .service-jump-list{grid-template-columns:1fr}
+  .service-jump-list a:nth-child(odd){border-right:0}
+  .service-detail{grid-template-columns:1fr;gap:20px;padding:52px 0}
+  .service-detail-reverse .service-detail-number,.service-detail-reverse .service-detail-copy{order:initial}
+  .service-detail-number{font-size:30px}
+  .service-detail h2{font-size:clamp(34px,8.5vw,44px)}
+  .service-detail-copy>p:not(.eyebrow){font-size:14px}
+  .services-contact-inner{grid-template-columns:1fr;gap:20px;padding:27px 23px}
+  .services-contact h2{font-size:46px}
+  .footer-services{font-size:11px}
+}
