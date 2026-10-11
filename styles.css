@@ -206,3 +206,12 @@
   .preview-menu span:nth-child(2){display:none}
   .preview-values{font-size:5.5px}
 }
+
+/* Footer aligned with the VisiPro blue and navy palette */
+.site-footer{background:#111827;color:#f8fafc}
+.brand-footer .brand-accent{color:#38bdf8}
+.footer-main>p{color:#cbd5e1}
+.footer-top{color:#7dd3fc}
+.footer-bottom{color:#aab7c8;border-color:#ffffff26}
+.footer-bottom a{color:#7dd3fc}
+.footer-top:hover,.footer-bottom a:hover{color:#ffffff}
