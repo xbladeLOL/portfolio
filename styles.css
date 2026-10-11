@@ -129,3 +129,80 @@
   .product-caption small{font-size:7px}
   .preview-values{padding:7px 9px;font-size:6px}
 }
+
+
+/* Contraste VisiPro et confort de lecture */
+.service-card-dark:hover{background:#0d2b45;box-shadow:0 16px 36px #0b29452b}
+.service-card-dark .service-number span{border-color:#35516a;color:#7dd3fc}
+.service-card-dark .service-tags span{border-color:#40566d;color:#e0edf7}
+.service-card p{min-height:100px;color:#4b5563;font-size:13px;line-height:1.75}
+.service-card-dark p{color:#e2eaf2}
+.service-tags{gap:7px}
+.service-tags span{padding:6px 8px;color:#4b5b6b;font-size:10px;line-height:1.35}
+.service-card-dark .service-tags span{color:#e0edf7}
+.contact-detail{font-size:13px}
+.contact-detail span:first-child{font-size:10px}
+.contact-detail a{line-height:1.55}
+@media(max-width:720px){
+  .hero-bottom{font-size:8px;letter-spacing:1px}
+  .intro h2{font-size:clamp(34px,8vw,42px);letter-spacing:-2px;line-height:1.12}
+  .section-heading h2{font-size:clamp(35px,8.5vw,43px);letter-spacing:-2.5px}
+  .project-details{padding:30px 24px 34px}
+  .contact h2{font-size:clamp(39px,9vw,49px);letter-spacing:-2.8px}
+  .contact-card{padding:24px}
+  .contact-detail{gap:12px;padding:12px 0}
+  .footer-main>p,.footer-top,.footer-bottom{font-size:11px}
+}
+@media(max-width:600px){
+  .container{width:calc(100% - 36px)}
+  .section{padding:68px 0}
+  .hero{padding-top:46px}
+  .hero-grid{gap:8px}
+  .hero-art{min-height:320px;margin:0 -4px}
+  .orbit-one{width:min(340px,94vw);height:min(340px,94vw)}
+  .orbit-two{width:min(270px,76vw);height:min(270px,76vw)}
+  .search-card{width:min(390px,91%);transform:rotate(-1deg)}
+  .note-top{left:1px;top:49px}
+  .note-bottom{right:1px;bottom:38px}
+  .hero-proof{margin-top:30px}
+  .hero-proof p{font-size:12px}
+  .intro-grid{gap:15px}
+  .intro h2{font-size:clamp(32px,8.5vw,40px)}
+  .section-heading{gap:12px;margin-bottom:26px}
+  .service-grid{grid-template-columns:1fr;gap:12px;border:0}
+  .service-card,.service-card:nth-child(2),.service-card:nth-child(3),.service-card:nth-child(4){
+    min-height:0;
+    padding:21px 22px;
+    border:1px solid #d9ddd5;
+    background:#fffefa;
+  }
+  .service-card-dark,.service-card-dark:hover{background:#111827;color:#fff}
+  .service-card h3{margin:24px 0 8px;font-size:20px}
+  .service-card p{min-height:0;margin:0;font-size:14px;line-height:1.7;color:#46515e}
+  .service-card-dark p{color:#e2eaf2}
+  .service-tags{margin-top:14px}
+  .service-tags span{font-size:10px}
+  .project-heading{margin-bottom:30px}
+  .project-visual.project-shop{padding-inline:12px}
+  .project-details{padding:26px 21px 30px}
+  .project-description{font-size:14px;line-height:1.75}
+  .project-list{font-size:12px}
+  .contact-wrap{gap:24px}
+  .contact-copy>p:last-child{font-size:14px}
+  .contact-detail{font-size:14px}
+  .footer-bottom{gap:10px 16px}
+}
+@media(max-width:380px){
+  .container{width:calc(100% - 30px)}
+  .hero h1{font-size:clamp(37px,11vw,43px);letter-spacing:-2.5px}
+  .hero-art{min-height:300px}
+  .search-card{padding:9px}
+  .result-card{grid-template-columns:76px 1fr;gap:8px}
+  .result-info h2{font-size:14px}
+  .result-pills span{padding:4px 5px;font-size:7px}
+  .floating-note{padding:8px 10px}
+  .floating-note strong{font-size:8px}
+  .floating-note small{font-size:7px}
+  .preview-menu span:nth-child(2){display:none}
+  .preview-values{font-size:5.5px}
+}
