@@ -1,18 +1,20 @@
 # VisiPro — Portfolio
 
-One-page showcase for VisiPro, focused on helping local businesses improve their online visibility.
+Site vitrine en une page pour VisiPro, consacré à la visibilité des commerces locaux.
 
-## Files
+## Fichiers principaux
 
-- index.html — French content and page structure
-- styles.css — responsive visual design
-- script.js — mobile navigation, subtle reveal effects, and the copy-message contact helper
-- favicon.svg — small VisiPro mark
+- index.html — contenu français et structure de la page
+- styles.css — identité visuelle et mise en page responsive
+- script.js — menu mobile et animations discrètes
+- favicon.svg — icône issue du logo VisiPro
+- assets/visipro-logo.svg — logo VisiPro
+- assets/melletricote-top-aurora.jpg — photo réelle du Top Aurora affiché sur la boutique Melle Tricote
 
-Open index.html in a browser to preview. The page uses no build tool or JavaScript dependency. Google Fonts are an optional enhancement; system fonts are used as fallbacks.
+Ouvrir index.html dans un navigateur pour prévisualiser le site. Aucun outil de compilation ou dépendance JavaScript n’est nécessaire.
 
-## Content notes
+## Notes de contenu
 
-The Melle Tricote section describes the public storefront and capabilities reflected in its project repository. It makes no claims about sales or performance metrics. The contact helper copies a starter message because no public email address, phone number, or social profile was provided yet.
+La section Melle Tricote reprend une image et des informations visibles sur melletricote.com et dans le dépôt du site. Elle ne revendique aucun résultat chiffré.
 
-Before publishing, add the contact channel you want customers to use and confirm the public Melle Tricote URL.
+Le contact affiche le numéro et l’adresse e-mail fournis par le propriétaire. Vérifier l’URL et le contenu avant toute publication.

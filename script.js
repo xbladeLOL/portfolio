@@ -33,19 +33,3 @@ if ("IntersectionObserver" in window) {
 } else {
   revealItems.forEach((item) => item.classList.add("is-visible"));
 }
-
-const copyButton = document.querySelector("#copy-prompt");
-const contactStatus = document.querySelector("#contact-status");
-copyButton?.addEventListener("click", async () => {
-  const message = "Bonjour, je découvre VisiPro et j’aimerais parler d’un projet pour mon commerce. Pouvez-vous me recontacter ?";
-  try {
-    await navigator.clipboard.writeText(message);
-    if (contactStatus) contactStatus.textContent = "Message copié ! Collez-le dans votre canal de contact habituel.";
-  } catch {
-    if (contactStatus) contactStatus.textContent = message;
-  }
-  copyButton.innerHTML = "Message préparé <span aria-hidden=\"true\">✓</span>";
-  window.setTimeout(() => {
-    copyButton.innerHTML = "Préparer un message <span aria-hidden=\"true\">↗</span>";
-  }, 2600);
-});
