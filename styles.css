@@ -47,3 +47,85 @@
 .contact-button{color:white}
 @media(max-width:720px){.preview-hero{min-height:235px;padding:10px;gap:7px}.preview-product,.preview-product img{min-height:235px}.preview-copy h4{font-size:23px}.preview-announcement{font-size:6px;gap:7px}.preview-header{padding:9px;font-size:6px}.preview-brand{font-size:18px}}
 @media(max-width:420px){.preview-hero{grid-template-columns:.88fr 1.12fr;min-height:205px;padding:8px}.preview-product,.preview-product img{min-height:205px}.preview-copy h4{font-size:19px}.preview-copy p{font-size:7px}.product-badge{right:5px;bottom:5px;left:5px;padding:6px}.product-badge strong{font-size:12px}}
+
+/* Aperçu Melle Tricote : plus proche de la vraie boutique */
+.project-visual.project-shop{
+  min-height:520px;
+  padding:24px 20px 48px;
+  background:radial-gradient(ellipse at 68% 42%,#fffaf3 0,#efe5da 72%);
+}
+.site-preview{
+  width:100%;
+  max-width:760px;
+  overflow:hidden;
+  border:1px solid #e4d8cc;
+  border-radius:5px;
+  background:#fbf8f1;
+  box-shadow:0 24px 55px #4a342720;
+}
+.preview-browser{
+  display:grid;
+  grid-template-columns:1fr 2fr 1fr;
+  align-items:center;
+  height:29px;
+  padding:0 11px;
+  background:#f4f0e9;
+  border-bottom:1px solid #e8e0d6;
+}
+.browser-dots{display:flex;gap:4px}
+.browser-dots i{width:6px;height:6px;border-radius:50%;background:#d6c7b8}
+.browser-dots i:first-child{background:#b9777f}
+.browser-address{justify-self:center;width:100%;padding:3px 12px;border-radius:12px;background:#fffdfa;text-align:center;color:#897c71;font-size:7px}
+.browser-lock{justify-self:end;color:#8a796d;font-size:10px}
+.preview-announcement{padding:8px 12px;background:#722c3f;color:#fff8ef;text-align:center;font-size:9px;letter-spacing:.15px}
+.preview-header{min-height:62px;padding:9px 19px;border-bottom:1px solid #e5dfd5;background:#fcfaf5}
+.preview-brand{font-size:26px}
+.preview-brand small{font-size:6px}
+.preview-menu{display:flex;align-items:center;gap:18px;color:#66594f;font-size:8px}
+.preview-menu b{display:grid;place-items:center;width:24px;height:24px;border:1px solid #ddd2c6;border-radius:50%;color:#722c3f;font-size:13px;font-weight:400}
+.preview-hero{grid-template-columns:.87fr 1.13fr;min-height:346px;padding:18px 17px 18px 28px;gap:17px}
+.preview-copy{align-self:center}
+.preview-copy>span:first-child{font-size:8px;letter-spacing:.8px}
+.preview-copy h4{margin:18px 0 13px;font-size:clamp(29px,2.8vw,39px);line-height:1.02;letter-spacing:-1.4px}
+.preview-copy p{max-width:255px;margin:0 0 17px;font-size:10px;line-height:1.65}
+.preview-button{display:inline-flex!important;align-items:center;gap:10px;padding:9px 12px;background:#722c3f;color:#fff8ef!important;font-size:8px!important;font-weight:600}
+.preview-button b{font-size:11px}
+.preview-product{display:flex;flex-direction:column;min-height:310px;margin:0;overflow:hidden;background:#f2e8df}
+.preview-product img{display:block;width:100%;height:270px;min-height:270px;object-fit:cover;object-position:center 36%}
+.product-caption{display:flex;align-items:center;gap:10px;min-height:40px;padding:7px 11px;background:#fffdf8;color:#342d28}
+.product-caption span{margin-right:auto;color:#722c3f;font-size:6px;letter-spacing:.7px}
+.product-caption strong{font:14px var(--serif)}
+.product-caption small{font-size:8px;color:#6b5a50}
+.preview-values{display:flex;justify-content:space-between;padding:9px 18px;border-top:1px solid #e9e0d6;color:#776960;font-size:7px;letter-spacing:.2px}
+.visual-caption{z-index:1}
+.project-details{background:#fffefa}
+.project-details .project-description{max-width:400px}
+@media(max-width:720px){
+  .project-visual.project-shop{min-height:500px;padding:20px 18px 43px}
+  .preview-hero{min-height:315px;padding:16px 14px 16px 20px;gap:12px}
+  .preview-product{min-height:280px}
+  .preview-product img{height:240px;min-height:240px}
+  .preview-copy h4{font-size:clamp(27px,5.2vw,36px)}
+  .preview-menu{gap:12px;font-size:7px}
+}
+@media(max-width:480px){
+  .project-visual.project-shop{min-height:420px;padding:14px 10px 39px}
+  .preview-browser{height:25px}
+  .preview-announcement{padding:7px 6px;font-size:7px}
+  .preview-header{min-height:53px;padding:8px 10px}
+  .preview-brand{font-size:20px}
+  .preview-menu{gap:7px;font-size:6px}
+  .preview-menu b{width:19px;height:19px;font-size:11px}
+  .preview-hero{min-height:265px;padding:12px 8px 12px 12px;gap:7px}
+  .preview-copy>span:first-child{font-size:6px;letter-spacing:.4px}
+  .preview-copy h4{margin:13px 0 9px;font-size:clamp(22px,6.5vw,29px)}
+  .preview-copy p{margin-bottom:11px;font-size:8px}
+  .preview-button{padding:7px 8px;font-size:7px!important}
+  .preview-product{min-height:235px}
+  .preview-product img{height:198px;min-height:198px}
+  .product-caption{gap:5px;min-height:37px;padding:6px}
+  .product-caption span{font-size:5px}
+  .product-caption strong{font-size:11px}
+  .product-caption small{font-size:7px}
+  .preview-values{padding:7px 9px;font-size:6px}
+}
