@@ -286,3 +286,135 @@
  .launch-offer-copy h2{font-size:21px}
  .launch-offer-copy>p:last-child{font-size:13px}
 }
+/* Tarifs VisiPro */
+.launch-offer{scroll-margin-top:88px}
+.launch-offer-inner{grid-template-columns:auto minmax(0,1fr) auto}
+.launch-offer-status{align-self:start;padding:8px 11px;border:1px solid #d6dee7;border-radius:3px;background:#f3f5f7;color:#475569;font-size:9px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;white-space:nowrap}
+.launch-offer-terms{margin-top:7px!important;color:#64748b!important;font-size:11px!important}
+.price-preview{background:var(--white)}
+.price-preview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.price-card{display:flex;flex-direction:column;padding:27px;border:1px solid #dbe3ec;background:#fbfcfd}
+.price-card-featured{border-color:#24354a;background:#111827;color:#fff}
+.price-card-kicker{margin:0 0 9px;color:#0369a1;font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase}
+.price-card-featured .price-card-kicker{color:#7dd3fc}
+.price-card h3{margin:0;font:600 23px var(--display);letter-spacing:-.8px}
+.price-card-price{margin:13px 0;color:#526174;font-size:11px}
+.price-card-price strong{display:block;color:var(--ink);font:700 34px/1.1 var(--display);letter-spacing:-1.4px}
+.price-card-featured .price-card-price{color:#cbd5e1}
+.price-card-featured .price-card-price strong{color:#fff}
+.price-card-description{min-height:48px;margin:0;color:#526174;font-size:12px;line-height:1.75}
+.price-card-featured .price-card-description{color:#dbe6f0}
+.price-card ul{display:grid;gap:8px;margin:18px 0 23px;padding:0;list-style:none;color:#344256;font-size:11px}
+.price-card li{position:relative;padding-left:19px;line-height:1.55}
+.price-card li:before{position:absolute;left:0;content:"✓";color:#0284c7;font-weight:700}
+.price-card-featured ul{color:#e2eaf2}
+.price-card-featured li:before{color:#7dd3fc}
+.price-card-actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:auto}
+.price-card-featured .text-link{border-color:#496174;color:#f8fafc}
+.price-card-featured .text-link span{color:#7dd3fc}
+.price-card-featured .button-light{color:var(--ink)}
+.price-snapshot{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px;border:1px solid #dbe3ec;background:#f4f8fb}
+.price-snapshot>div{display:flex;flex-direction:column;gap:5px;padding:16px 20px;border-right:1px solid #dbe3ec}
+.price-snapshot>div:last-child{border-right:0}
+.price-snapshot span{color:#64748b;font-size:10px}
+.price-snapshot strong{color:#111827;font-size:13px}
+.price-preview-footer{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:20px}
+.price-preview-footer p{margin:0;color:#64748b;font-size:11px;line-height:1.7}
+.services-price-link{margin-left:17px}
+.tariff-hero{padding:92px 0 70px;background:var(--white)}
+.tariff-hero-inner{max-width:850px}
+.tariff-hero h1{margin:0;font:600 clamp(48px,6vw,74px)/1.04 var(--display);letter-spacing:-4px}
+.tariff-hero h1 em,.tariff-category-heading h2 em,.pricing-terms h2 em,.tariff-contact h2 em{color:var(--brand-blue);font:italic 400 1em/1 var(--serif);letter-spacing:-2.5px}
+.tariff-hero-inner>p:not(.eyebrow){max-width:620px;margin:22px 0 27px;color:#526174;font-size:15px;line-height:1.85}
+.tariff-index{padding:29px 0 33px;background:#f0f4f8}
+.tariff-index>.container>.eyebrow{margin-bottom:13px}
+.tariff-index-links{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid #dbe3ec;border-left:1px solid #dbe3ec}
+.tariff-index-links a{display:flex;flex-direction:column;justify-content:space-between;gap:14px;min-height:78px;padding:13px;border-right:1px solid #dbe3ec;border-bottom:1px solid #dbe3ec;color:#344256;font-size:11px;font-weight:600;line-height:1.5;transition:background .2s,color .2s}
+.tariff-index-links a span{color:#0284c7;font-size:9px}
+.tariff-index-links a:hover{background:#fffefa;color:#075985}
+.tariff-category{scroll-margin-top:88px;background:var(--white)}
+.tariff-category-soft{background:#f7f9fb}
+.tariff-category-heading{display:grid;grid-template-columns:56px 1fr;gap:19px;align-items:start;margin-bottom:31px}
+.tariff-category-heading>span{padding-top:1px;color:#0284c7;font:700 24px var(--display);letter-spacing:-1px}
+.tariff-category-heading .eyebrow{margin:0 0 10px}
+.tariff-category-heading h2{max-width:740px;margin:0;font:600 clamp(33px,4vw,47px)/1.12 var(--display);letter-spacing:-2.6px}
+.tariff-category-heading>div>p:last-child{max-width:700px;margin:12px 0 0;color:#526174;font-size:13px;line-height:1.8}
+.rate-list{border-top:1px solid #dbe3ec}
+.rate-row{padding:22px 0;border-bottom:1px solid #dbe3ec;scroll-margin-top:95px}
+.rate-main{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:26px;align-items:start}
+.rate-main h3{margin:0;font:600 18px/1.4 var(--display);letter-spacing:-.4px;color:#111827}
+.rate-main p{max-width:700px;margin:6px 0 0;color:#526174;font-size:12px;line-height:1.75}
+.rate-price{min-width:145px;color:#526174;text-align:right;font-size:10px;font-weight:500;line-height:1.4}
+.rate-price b{display:block;color:#075985;font:700 21px/1.35 var(--display);letter-spacing:-.4px}
+.rate-details{margin-top:12px}
+.rate-details summary{display:inline-flex;align-items:center;gap:8px;color:#075985;font-size:11px;font-weight:700;cursor:pointer;list-style:none}
+.rate-details summary::-webkit-details-marker{display:none}
+.rate-details summary:after{content:"+";color:#0284c7;font-size:15px}
+.rate-details[open] summary:after{content:"−"}
+.rate-details>div{max-width:760px;padding:13px 0 0 13px;border-left:2px solid #bae6fd}
+.rate-details ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 23px;margin:0;padding:0;list-style:none;color:#344256;font-size:11px;line-height:1.6}
+.rate-details li{position:relative;padding-left:15px}
+.rate-details li:before{position:absolute;left:0;content:"✓";color:#0284c7}
+.rate-details p{margin:11px 0 0;color:#64748b;font-size:11px;line-height:1.7}
+.tariff-subheading{margin:33px 0 14px;font:600 19px var(--display);letter-spacing:-.5px}
+.options-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid #dbe3ec;border-left:1px solid #dbe3ec}
+.options-list>div{display:flex;justify-content:space-between;gap:18px;align-items:center;min-height:70px;padding:12px 15px;border-right:1px solid #dbe3ec;border-bottom:1px solid #dbe3ec;background:#ffffff70}
+.options-list>div>span{display:flex;flex-direction:column;gap:3px}
+.options-list strong{color:#243244;font-size:11px;line-height:1.45}
+.options-list small{color:#64748b;font-size:10px;line-height:1.5}
+.options-list b{flex:none;color:#075985;font-size:12px}
+.pricing-note{max-width:780px;margin:16px 0 0;color:#64748b;font-size:11px;line-height:1.7}
+.pricing-terms{padding:60px 0;background:#eaf2f8}
+.pricing-terms-inner{padding:27px;border:1px solid #d5e1e9;background:#f9fbfc}
+.pricing-terms-inner>.eyebrow{margin:0 0 10px}
+.pricing-terms h2{margin:0;font:600 clamp(32px,4vw,42px)/1.15 var(--display);letter-spacing:-2px}
+.pricing-terms-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:18px}
+.pricing-terms-grid p{margin:0;color:#526174;font-size:11px;line-height:1.8}
+.tariff-contact{background:#f0f4f8}
+.tariff-contact-inner{display:grid;grid-template-columns:1fr auto;gap:45px;align-items:center;padding:34px 37px;border:1px solid #dbe3ec;background:#ffffffa8}
+.tariff-contact h2{margin:0;font:600 clamp(38px,4.8vw,56px)/1.05 var(--display);letter-spacing:-3px}
+.tariff-contact-inner>div:first-child>p:last-child{max-width:560px;color:#526174;font-size:13px;line-height:1.8}
+.tariff-contact-actions{display:flex;flex-direction:column;align-items:flex-start;gap:17px}
+@media(max-width:900px){
+ .tariff-index-links{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .price-card-actions{align-items:flex-start;flex-direction:column}
+}
+@media(max-width:760px){
+ .launch-offer-inner{grid-template-columns:1fr;gap:13px;padding:21px}
+ .launch-offer-inner>.button{grid-column:auto;width:100%}
+ .launch-offer-status{justify-self:start}
+ .price-preview-grid{grid-template-columns:1fr}
+ .price-card{padding:23px}
+ .price-card-description{min-height:0}
+ .price-card-actions{flex-direction:row}
+ .price-snapshot{grid-template-columns:1fr}
+ .price-snapshot>div{border-right:0;border-bottom:1px solid #dbe3ec}
+ .price-snapshot>div:last-child{border-bottom:0}
+ .price-preview-footer{align-items:stretch;flex-direction:column}
+ .services-price-link{margin:17px 0 0}
+ .tariff-hero{padding:65px 0 50px}
+ .tariff-hero h1{font-size:clamp(42px,11vw,61px);letter-spacing:-3px}
+ .tariff-hero-inner>p:not(.eyebrow){font-size:14px}
+ .tariff-index-links{grid-template-columns:1fr 1fr}
+ .tariff-index-links a:last-child{grid-column:1 / -1}
+ .tariff-category-heading{grid-template-columns:36px 1fr;gap:13px}
+ .tariff-category-heading>span{font-size:20px}
+ .tariff-category-heading h2{font-size:clamp(31px,8vw,40px);letter-spacing:-2px}
+ .rate-main{grid-template-columns:1fr;gap:11px}
+ .rate-price{min-width:0;text-align:left}
+ .rate-price b{display:inline;margin-left:6px;font-size:19px}
+ .rate-details ul{grid-template-columns:1fr}
+ .options-list{grid-template-columns:1fr}
+ .pricing-terms{padding:45px 0}
+ .pricing-terms-inner{padding:22px}
+ .pricing-terms-grid{grid-template-columns:1fr;gap:13px}
+ .tariff-contact-inner{grid-template-columns:1fr;gap:18px;padding:25px 22px}
+ .tariff-contact-actions{align-items:stretch}
+ .tariff-contact-actions .button{width:100%}
+}
+@media(max-width:420px){
+ .price-card-actions{align-items:stretch;flex-direction:column}
+ .tariff-index-links{grid-template-columns:1fr}
+ .tariff-index-links a:last-child{grid-column:auto}
+ .options-list>div{align-items:flex-start}
+}
